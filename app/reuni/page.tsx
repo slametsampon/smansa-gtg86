@@ -3,6 +3,7 @@
 import { allReuniDocs } from 'contentlayer/generated';
 import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer';
 import SimpleListLayout from '@/layouts/SimpleListLayout';
+import CircleLabelSvg from '@/components/CircleLabelSvg';
 
 const POSTS_PER_PAGE = 10;
 

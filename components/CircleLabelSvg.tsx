@@ -27,8 +27,9 @@ const CircleLabelSvg: React.FC<CircleLabelSvgProps> = ({
     >
       <defs>
         <radialGradient id="radialElectricGradient" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#00aaff" />
-          <stop offset="100%" stopColor="#001f3f" />
+          <stop offset="0%" stopColor="#FF0033" /> {/* Merah neon terang */}
+          <stop offset="40%" stopColor="#CC0033" /> {/* Merah pertengahan */}
+          <stop offset="100%" stopColor="#8B0000" /> {/* Maroon gelap */}
         </radialGradient>
       </defs>
 
