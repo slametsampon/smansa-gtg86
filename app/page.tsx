@@ -17,7 +17,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative z-10 mb-12 mt-6 text-center">
         <h1 className="bg-gradient-to-r from-blue-700 via-blue-500 to-cyan-400 bg-clip-text text-5xl font-extrabold text-transparent sm:text-6xl">
-          smansa-gtg86 Alumni & Blog Platform
+          SMAN 1 Genteng Alumni & Blog Platform
         </h1>
         <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600 dark:text-gray-300">
           Dokumentasi kenangan reuni dan berbagi artikel teknik untuk alumni
