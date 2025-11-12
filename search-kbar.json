@@ -5,6 +5,77 @@
     "subtitle": "Invalid Date"
   },
   {
+    "id": "promosi/fashion",
+    "name": "Fashion — Gaya Tradisional dengan Sentuhan Modern",
+    "section": "CONTENT",
+    "href": "/smansa-gtg86/blog/promosi/fashion",
+    "subtitle": "12 November 2025",
+    "keywords": [
+      "fashion",
+      "ethnic",
+      "umkm",
+      "wanita",
+      "promosi"
+    ]
+  },
+  {
+    "id": "promosi/jamu-herbal",
+    "name": "Racikan Mak Sari — Obat Herbal Tradisional dari Alam Nusantara",
+    "section": "CONTENT",
+    "href": "/smansa-gtg86/blog/promosi/jamu-herbal",
+    "subtitle": "12 November 2025",
+    "keywords": [
+      "herbal",
+      "obat-tradisional",
+      "jamu",
+      "kesehatan",
+      "umkm",
+      "promosi"
+    ]
+  },
+  {
+    "id": "promosi/kios-pertanian",
+    "name": "Kios Tani — Solusi Lengkap untuk Petani Modern",
+    "section": "CONTENT",
+    "href": "/smansa-gtg86/blog/promosi/kios-pertanian",
+    "subtitle": "12 November 2025",
+    "keywords": [
+      "pertanian",
+      "kios",
+      "pupuk",
+      "umkm",
+      "promosi"
+    ]
+  },
+  {
+    "id": "promosi/kopi-tubruk",
+    "name": "KopiKoe — Ngopi Asik, Kongko Lebih Seru!",
+    "section": "CONTENT",
+    "href": "/smansa-gtg86/blog/promosi/kopi-tubruk",
+    "subtitle": "12 November 2025",
+    "keywords": [
+      "ngopi",
+      "kopi",
+      "kongko",
+      "kuliner",
+      "umkm",
+      "promosi"
+    ]
+  },
+  {
+    "id": "promosi/sambal-ulek",
+    "name": "Sambel Uleg — Pedasnya Melekat, Rasanya Menggoda!",
+    "section": "CONTENT",
+    "href": "/smansa-gtg86/blog/promosi/sambal-ulek",
+    "subtitle": "12 November 2025",
+    "keywords": [
+      "kuliner",
+      "promosi",
+      "sambel",
+      "umkm"
+    ]
+  },
+  {
     "id": "markdown/github-markdown-guide",
     "name": "Panduan Markdown",
     "section": "CONTENT",
