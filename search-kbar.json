@@ -1,0 +1,71 @@
+[
+  {
+    "section": "CONTENT",
+    "href": "/teub-86/undefined",
+    "subtitle": "Invalid Date"
+  },
+  {
+    "id": "markdown/github-markdown-guide",
+    "name": "Panduan Markdown",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/markdown/github-markdown-guide",
+    "subtitle": "7 Oktober 2025",
+    "keywords": [
+      "github",
+      "panduan",
+      "markdown",
+      "md",
+      "mdx"
+    ]
+  },
+  {
+    "id": "markdown/math-formula-guide",
+    "name": "Panduan Penulisan Formula Matematika dalam Block Markdown",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/markdown/math-formula-guide",
+    "subtitle": "7 Oktober 2025",
+    "keywords": [
+      "markdown",
+      "formula",
+      "math"
+    ]
+  },
+  {
+    "id": "AI/patform-ai",
+    "name": "Pemanfaatan AI untuk Mendukung Pekerjaan di Industri Petrokimia",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/AI/patform-ai",
+    "subtitle": "20 September 2024",
+    "keywords": [
+      "platform-ai",
+      "ai",
+      "gpt",
+      "petrokimia"
+    ]
+  },
+  {
+    "id": "AI/artikel-ai",
+    "name": "Menulis Artikel yang Efektif dengan Prompt Engineering",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/AI/artikel-ai",
+    "subtitle": "8 September 2024",
+    "keywords": [
+      "prompt-engineering",
+      "ai",
+      "gpt",
+      "artikel"
+    ]
+  },
+  {
+    "id": "AI/prompt-engineering",
+    "name": "Prompt Engineering",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/AI/prompt-engineering",
+    "subtitle": "8 September 2024",
+    "keywords": [
+      "prompt-engineering",
+      "ai",
+      "gpt"
+    ]
+  }
+]
