@@ -1,0 +1,136 @@
+---
+title: About
+description: Tentang situs ini
+---
+
+# 🏭 TEUB-86 — Industrial & Alumni Knowledge Platform
+
+**TEUB-86** adalah proyek **open-source** berbasis **Next.js (App Router)** yang dikembangkan sebagai **platform dokumentasi, blog, dan arsip reuni** untuk komunitas **alumni Teknik Elektro Universitas Brawijaya Angkatan 1986**.
+
+Proyek ini tidak hanya mengusung konsep blog teknis (engineering, safety, maintenance), tetapi juga menyediakan kanal dokumentasi kegiatan reuni sebagai bagian dari _knowledge preservation_ dan penguatan ikatan alumni.
+
+---
+
+## 🎯 Tujuan Proyek
+
+TEUB-86 dibangun untuk:
+
+- ✍️ Mendokumentasikan pengalaman, proyek, dan keahlian profesional alumni
+- 📚 Membangun blog dan pusat dokumentasi teknis berbasis Markdown (MDX)
+- 📸 Menyimpan dokumentasi kegiatan reuni secara sistematis dan berkelanjutan
+- 🧠 Menjadi knowledge base kolektif bagi alumni dan generasi penerus
+- 🌐 Menyediakan platform statis, modern, dan mudah dikembangkan bersama
+
+---
+
+## 🚀 Fitur Unggulan
+
+| Fitur                         | Deskripsi                                   |
+| ----------------------------- | ------------------------------------------- |
+| ✅ **Next.js App Router**     | Arsitektur modern & efisien                 |
+| 📁 **Markdown (MDX)**         | Konten ditulis sepenuhnya dalam format MDX  |
+| 📦 **Contentlayer**           | Otomatisasi struktur konten dan metadata    |
+| 🎨 **Tailwind CSS**           | Desain fleksibel dan mudah dikustomisasi    |
+| 🗂️ **Struktur Modular**       | Memisahkan `blog/` dan `reuni/`             |
+| 🔍 **Tagging & Filtering**    | Sistem tag otomatis, termasuk `/tags/[tag]` |
+| 🌙 **Light / Dark Mode**      | Disesuaikan dengan preferensi pengguna      |
+| ⚙️ **Static Export Friendly** | Siap untuk deploy ke GitHub Pages           |
+| 🧠 **Typed with TypeScript**  | Keamanan dan kenyamanan dalam development   |
+
+---
+
+## 📚 Struktur Konten
+
+Struktur konten terbagi menjadi dua kanal utama:
+
+```
+
+content/
+├── blog/         # Artikel bebas, teknis, pengalaman, opini
+├── reuni/        # Dokumentasi kegiatan reuni alumni
+├── authors/      # (Opsional) Profil kontributor
+├── pages/        # Halaman statis (about.mdx, dll)
+
+```
+
+Setiap file `.mdx` memiliki metadata `frontmatter`, seperti:
+
+```md
+---
+title: Reverse Engineering STHE
+tags: ['project', 'design']
+date: '2025-10-10'
+summary: Studi kasus desain ulang shell & tube heat exchanger.
+---
+```
+
+---
+
+## 👥 Siapa yang Cocok Menggunakan?
+
+- 🧑‍🔧 **Engineer / Technical Writer** – dokumentasi teknis, pengalaman kerja
+- 👴 **Alumni** – menulis refleksi atau cerita selama kuliah dan karier
+- 🧑‍🏫 **Edukator** – membuat konten pembelajaran & e-learning
+- 👥 **Komunitas** – membangun histori dan dokumentasi kegiatan
+
+---
+
+## 📦 Teknologi yang Digunakan
+
+- [Next.js](https://nextjs.org/)
+- [Contentlayer](https://contentlayer.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [MDX](https://mdxjs.com/)
+
+---
+
+## 🛠️ Cara Menjalankan Proyek
+
+1. Clone repositori:
+
+   ```bash
+   git clone https://github.com/slametsampon/teub-86.git
+   cd teub-86
+   ```
+
+2. Install dependensi:
+
+   ```bash
+   npm install
+   ```
+
+3. Jalankan lokal:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Build untuk produksi:
+
+   ```bash
+   npm run build && npm run export
+   ```
+
+---
+
+## 🤝 Kontribusi
+
+Kontribusi terbuka untuk semua alumni dan profesional yang ingin berbagi:
+
+- ✏️ Menambahkan artikel atau dokumentasi reuni
+- 💡 Mengusulkan fitur baru
+- 🐞 Memperbaiki bug atau masalah tampilan
+- 🔧 Menyesuaikan desain atau UX
+
+Silakan buka [Issue](https://github.com/slametsampon/teub-86/issues) atau kirim [Pull Request](https://github.com/slametsampon/teub-86/pulls).
+
+---
+
+## 📄 Lisensi
+
+Proyek ini menggunakan lisensi **MIT** — bebas digunakan, dimodifikasi, dan dikembangkan untuk kepentingan komunitas.
+
+---
+
+> Dibangun dengan semangat kebersamaan alumni — karena pengetahuan dan kenangan layak didokumentasikan dan diwariskan.
