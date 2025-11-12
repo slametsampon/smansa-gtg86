@@ -3,64 +3,64 @@ title: About
 description: Tentang situs ini
 ---
 
-# 🏭 TEUB-86 — Industrial & Alumni Knowledge Platform
+# 🎓 SMANSA-GTG86 — Platform Alumni & Dokumentasi Reuni
 
-**TEUB-86** adalah proyek **open-source** berbasis **Next.js (App Router)** yang dikembangkan sebagai **platform dokumentasi, blog, dan arsip reuni** untuk komunitas **alumni Teknik Elektro Universitas Brawijaya Angkatan 1986**.
+**SMANSA-GTG86** adalah proyek **open-source** berbasis **Next.js (App Router)** yang dikembangkan sebagai **platform dokumentasi, blog alumni, dan arsip kegiatan reuni** untuk komunitas **Alumni SMAN 1 Genteng Angkatan 1986**.
 
-Proyek ini tidak hanya mengusung konsep blog teknis (engineering, safety, maintenance), tetapi juga menyediakan kanal dokumentasi kegiatan reuni sebagai bagian dari _knowledge preservation_ dan penguatan ikatan alumni.
+Proyek ini bertujuan untuk mewadahi cerita, dokumentasi reuni, dan pengalaman hidup alumni dalam format digital yang modern, mudah diakses, dan dikelola bersama-sama.
 
 ---
 
 ## 🎯 Tujuan Proyek
 
-TEUB-86 dibangun untuk:
+Platform ini dibangun dengan tujuan:
 
-- ✍️ Mendokumentasikan pengalaman, proyek, dan keahlian profesional alumni
-- 📚 Membangun blog dan pusat dokumentasi teknis berbasis Markdown (MDX)
-- 📸 Menyimpan dokumentasi kegiatan reuni secara sistematis dan berkelanjutan
-- 🧠 Menjadi knowledge base kolektif bagi alumni dan generasi penerus
-- 🌐 Menyediakan platform statis, modern, dan mudah dikembangkan bersama
+- ✍️ Mendokumentasikan cerita dan pengalaman alumni sejak masa sekolah hingga kini
+- 📚 Membangun blog nostalgia dan inspiratif berbasis Markdown (MDX)
+- 📸 Menyimpan dokumentasi kegiatan reuni secara rapi dan berkelanjutan
+- 🤝 Memperkuat tali silaturahmi dan kolaborasi alumni
+- 🌐 Menyediakan platform digital statis yang bisa dikembangkan secara kolektif
 
 ---
 
 ## 🚀 Fitur Unggulan
 
-| Fitur                         | Deskripsi                                   |
-| ----------------------------- | ------------------------------------------- |
-| ✅ **Next.js App Router**     | Arsitektur modern & efisien                 |
-| 📁 **Markdown (MDX)**         | Konten ditulis sepenuhnya dalam format MDX  |
-| 📦 **Contentlayer**           | Otomatisasi struktur konten dan metadata    |
-| 🎨 **Tailwind CSS**           | Desain fleksibel dan mudah dikustomisasi    |
-| 🗂️ **Struktur Modular**       | Memisahkan `blog/` dan `reuni/`             |
-| 🔍 **Tagging & Filtering**    | Sistem tag otomatis, termasuk `/tags/[tag]` |
-| 🌙 **Light / Dark Mode**      | Disesuaikan dengan preferensi pengguna      |
-| ⚙️ **Static Export Friendly** | Siap untuk deploy ke GitHub Pages           |
-| 🧠 **Typed with TypeScript**  | Keamanan dan kenyamanan dalam development   |
+| Fitur                         | Deskripsi                                 |
+| ----------------------------- | ----------------------------------------- |
+| ✅ **Next.js App Router**     | Routing modern berbasis file & folder     |
+| 📁 **Markdown (MDX)**         | Konten fleksibel dan mudah ditulis        |
+| 📦 **Contentlayer**           | Otomatisasi struktur konten dan metadata  |
+| 🎨 **Tailwind CSS**           | Desain adaptif dan bersih                 |
+| 🗂️ **Struktur Modular**       | Terbagi antara `blog/` dan `reuni/`       |
+| 🔍 **Tagging & Filtering**    | Sistem tag otomatis untuk artikel         |
+| 🌙 **Light / Dark Mode**      | Tampilan mengikuti preferensi pengguna    |
+| ⚙️ **Static Export Friendly** | Siap deploy ke GitHub Pages tanpa backend |
+| 🧠 **Typed with TypeScript**  | Jaminan stabilitas dalam pengembangan     |
 
 ---
 
 ## 📚 Struktur Konten
 
-Struktur konten terbagi menjadi dua kanal utama:
+Struktur konten dibagi dalam beberapa kanal utama:
 
 ```
 
 content/
-├── blog/         # Artikel bebas, teknis, pengalaman, opini
-├── reuni/        # Dokumentasi kegiatan reuni alumni
-├── authors/      # (Opsional) Profil kontributor
-├── pages/        # Halaman statis (about.mdx, dll)
+├── blog/         # Artikel alumni (cerita, opini, pengalaman)
+├── reuni/        # Dokumentasi kegiatan reuni
+├── authors/      # (Opsional) Profil penulis
+├── pages/        # Halaman statis (seperti about.mdx)
 
 ```
 
-Setiap file `.mdx` memiliki metadata `frontmatter`, seperti:
+Contoh metadata (`frontmatter`) dalam file `.mdx`:
 
 ```md
 ---
-title: Reverse Engineering STHE
-tags: ['project', 'design']
-date: '2025-10-10'
-summary: Studi kasus desain ulang shell & tube heat exchanger.
+title: Nostalgia Masa Orientasi
+tags: ['kenangan', 'sekolah']
+date: '2025-09-01'
+summary: Cerita lucu masa-masa MOS tahun 1983 di SMANSA Genteng.
 ---
 ```
 
@@ -68,10 +68,10 @@ summary: Studi kasus desain ulang shell & tube heat exchanger.
 
 ## 👥 Siapa yang Cocok Menggunakan?
 
-- 🧑‍🔧 **Engineer / Technical Writer** – dokumentasi teknis, pengalaman kerja
-- 👴 **Alumni** – menulis refleksi atau cerita selama kuliah dan karier
-- 🧑‍🏫 **Edukator** – membuat konten pembelajaran & e-learning
-- 👥 **Komunitas** – membangun histori dan dokumentasi kegiatan
+- 👴 **Alumni SMANSA-GTG86** – berbagi cerita, kesan, dan pengalaman hidup
+- 🧑‍🏫 **Guru / Pendidik** – mendokumentasikan interaksi dan kontribusi terhadap alumni
+- 👥 **Panitia Reuni** – menyusun laporan kegiatan & galeri dokumentasi
+- 📷 **Kontributor Konten** – menulis artikel nostalgia, profil teman, dll
 
 ---
 
@@ -90,8 +90,8 @@ summary: Studi kasus desain ulang shell & tube heat exchanger.
 1. Clone repositori:
 
    ```bash
-   git clone https://github.com/slametsampon/teub-86.git
-   cd teub-86
+   git clone https://github.com/[username]/smansa-gtg86.git
+   cd smansa-gtg86
    ```
 
 2. Install dependensi:
@@ -116,21 +116,21 @@ summary: Studi kasus desain ulang shell & tube heat exchanger.
 
 ## 🤝 Kontribusi
 
-Kontribusi terbuka untuk semua alumni dan profesional yang ingin berbagi:
+Semua alumni SMANSA-GTG86 diundang untuk berkontribusi, baik secara teknis maupun konten:
 
-- ✏️ Menambahkan artikel atau dokumentasi reuni
-- 💡 Mengusulkan fitur baru
-- 🐞 Memperbaiki bug atau masalah tampilan
-- 🔧 Menyesuaikan desain atau UX
+- ✏️ Menambahkan artikel blog atau dokumentasi reuni
+- 💬 Menyampaikan ide, perbaikan, atau masukan konten
+- 🐛 Memperbaiki kesalahan penulisan atau tampilan
+- 🎨 Menyesuaikan tampilan antarmuka
 
-Silakan buka [Issue](https://github.com/slametsampon/teub-86/issues) atau kirim [Pull Request](https://github.com/slametsampon/teub-86/pulls).
+Silakan buka [Issue](https://github.com/[username]/smansa-gtg86/issues) atau kirim [Pull Request](https://github.com/[username]/smansa-gtg86/pulls).
 
 ---
 
 ## 📄 Lisensi
 
-Proyek ini menggunakan lisensi **MIT** — bebas digunakan, dimodifikasi, dan dikembangkan untuk kepentingan komunitas.
+Platform ini menggunakan lisensi **MIT** — bebas digunakan, dikembangkan, dan dimodifikasi untuk kepentingan komunitas.
 
 ---
 
-> Dibangun dengan semangat kebersamaan alumni — karena pengetahuan dan kenangan layak didokumentasikan dan diwariskan.
+> Dibangun atas dasar semangat kebersamaan dan rasa nostalgia — karena kenangan masa SMA tak layak untuk dilupakan, tetapi untuk dikenang dan dibagikan.

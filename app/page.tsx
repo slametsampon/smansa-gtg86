@@ -17,11 +17,11 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative z-10 mb-12 mt-6 text-center">
         <h1 className="bg-gradient-to-r from-blue-700 via-blue-500 to-cyan-400 bg-clip-text text-5xl font-extrabold text-transparent sm:text-6xl">
-          TEUB-86 Alumni & Blog Platform
+          smansa-gtg86 Alumni & Blog Platform
         </h1>
         <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600 dark:text-gray-300">
           Dokumentasi kenangan reuni dan berbagi artikel teknik untuk alumni
-          Teknik Elektro UB 1986.
+          SMAN 1 Genteng tahun 1986.
         </p>
         <p className="mt-2 text-sm text-gray-400">
           Dibangun dengan ❤️ menggunakan Next.js & Contentlayer.

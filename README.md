@@ -1,39 +1,39 @@
-# 🧩 TEUB-86
+# 🎓 SMANSA-GTG86
 
-Repositori ini merupakan proyek berbasis **Next.js (App Router)** yang ditujukan sebagai **platform dokumentasi digital alumni** TEUB-86 (Teknik Elektro Universitas Brawijaya Angkatan 1986). Platform ini bersifat **ringan, modular, dan extensible**, cocok digunakan untuk:
+Repositori ini merupakan proyek berbasis **Next.js (App Router)** yang ditujukan sebagai **platform dokumentasi digital alumni** SMAN 1 Genteng Angkatan 1986 (**SMANSA-GTG86**). Platform ini bersifat **ringan, modular, dan mudah dikembangkan**, cocok digunakan untuk:
 
-- 📚 Menulis dan mempublikasikan artikel alumni
-- 🧠 Berbagi pengetahuan & pengalaman kerja
-- 🧾 Mencatat sejarah dan dokumentasi kegiatan reuni
+* 📚 Menyusun dan membagikan artikel atau cerita alumni
+* 🧠 Berbagi pengalaman hidup, karier, dan inspirasi
+* 📸 Mendokumentasikan kegiatan reuni dan momen kebersamaan
 
-Konten disusun dalam format **Markdown (MDX)** dan dikelola menggunakan **Contentlayer**, sehingga sangat fleksibel untuk pengelolaan konten teknis maupun non-teknis.
+Konten disusun dalam format **Markdown (MDX)** dan dikelola menggunakan **Contentlayer**, memudahkan penulisan tanpa perlu pengetahuan pemrograman.
 
-Repositori: [https://github.com/slametsampon/teub-86](https://github.com/slametsampon/teub-86)
+Repositori: [https://github.com/[username]/smansa-gtg86](https://github.com/[username]/smansa-gtg86)
 
 ---
 
 ## ✨ Fitur Utama
 
-- ⚡ Dibangun dengan Next.js + App Router (`/app`)
-- 🎨 Styling menggunakan Tailwind CSS
-- 📦 Konten berbasis Markdown/MDX via Contentlayer
-- 📂 Terstruktur menjadi dua entitas utama: **Blog** dan **Reuni**
-- 🧠 Ditulis penuh dalam TypeScript
-- 🌐 Siap dideploy ke GitHub Pages
-- ✅ Cocok untuk dokumentasi komunitas, alumni, atau knowledge platform
+* ⚡ Dibangun dengan Next.js + App Router (`/app`)
+* 🎨 Styling modern menggunakan Tailwind CSS
+* 📦 Konten fleksibel menggunakan format Markdown/MDX via Contentlayer
+* 📂 Dua kanal utama: **Blog** (cerita, inspirasi) & **Reuni** (dokumentasi kegiatan)
+* 🧠 Ditulis penuh dalam TypeScript
+* 🌐 Siap dideploy ke GitHub Pages tanpa backend
+* ✅ Ideal untuk komunitas alumni sekolah menengah
 
 ---
 
 ## 📁 Struktur Konten
 
-Proyek ini memiliki dua kanal utama:
+Platform ini menyajikan dua kanal utama:
 
 | Kanal | Path     | Deskripsi                                                |
 | ----- | -------- | -------------------------------------------------------- |
-| Blog  | `/blog`  | Artikel bebas, opini, pengalaman, teknologi, berita, dll |
-| Reuni | `/reuni` | Dokumentasi kegiatan reuni alumni (narasi + foto)        |
+| Blog  | `/blog`  | Artikel alumni (cerita sekolah, perjalanan hidup, opini) |
+| Reuni | `/reuni` | Dokumentasi kegiatan reuni (narasi, foto, video, lokasi) |
 
-Semua konten dapat ditulis langsung dalam `.mdx` dan diletakkan dalam folder `content/`.
+Semua konten dapat ditulis dalam format `.mdx` dan diletakkan pada folder `content/`.
 
 ---
 
@@ -41,9 +41,9 @@ Semua konten dapat ditulis langsung dalam `.mdx` dan diletakkan dalam folder `co
 
 Pastikan Anda sudah menginstall:
 
-- **Node.js** versi 18+
+* **Node.js** versi 18+
   👉 [https://nodejs.org](https://nodejs.org)
-- **Git**
+* **Git**
   👉 [https://git-scm.com](https://git-scm.com)
 
 ---
@@ -53,8 +53,8 @@ Pastikan Anda sudah menginstall:
 ### 1. Clone repositori
 
 ```bash
-git clone https://github.com/slametsampon/teub-86.git
-cd teub-86
+git clone https://github.com/[username]/smansa-gtg86.git
+cd smansa-gtg86
 ```
 
 ### 2. Install dependensi
@@ -92,7 +92,7 @@ npm run start
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/teub-86',
+  basePath: '/smansa-gtg86',
   images: {
     unoptimized: true,
   },
@@ -101,7 +101,7 @@ const nextConfig = {
 module.exports = nextConfig;
 ```
 
-> Sesuaikan `basePath` dengan nama repositori GitHub.
+> Gantilah `basePath` sesuai dengan nama repositori GitHub Anda.
 
 ### 2. Tambahkan script ke `package.json`
 
@@ -128,14 +128,14 @@ npm run deploy
 
 ### 5. Atur GitHub Pages
 
-- GitHub > Settings > Pages
-- Source: `gh-pages` branch
-- Folder: `/ (root)`
+* GitHub > Settings > Pages
+* Source: `gh-pages` branch
+* Folder: `/ (root)`
 
 Link deploy:
 
 ```
-https://slametsampon.github.io/teub-86
+https://[username].github.io/smansa-gtg86
 ```
 
 ---
@@ -143,74 +143,73 @@ https://slametsampon.github.io/teub-86
 ## 📁 Struktur Direktori
 
 ```
-teub-86/
-├── app/                      # Routing dengan App Router
-├── components/               # Komponen UI
+smansa-gtg86/
+├── app/                      # Routing halaman (Next.js App Router)
+├── components/               # Komponen UI (navbar, footer, dsb.)
 ├── content/
 │   ├── blog/                 # Artikel alumni
 │   ├── reuni/                # Dokumentasi kegiatan reuni
-│   └── pages/                # Static page seperti about.mdx
-├── data/                     # Metadata konfigurasi
-├── layouts/                  # Layout halaman
-├── public/                   # Aset statis (gambar, icon)
-├── .contentlayer/            # Output contentlayer
-├── out/                      # Hasil export untuk GitHub Pages
-├── tailwind.config.ts        # Konfigurasi Tailwind
-├── contentlayer.config.ts    # Konfigurasi struktur konten
+│   └── pages/                # Halaman statis seperti about.mdx
+├── data/                     # Metadata situs (configurasi nama, footer, dll)
+├── layouts/                  # Layout halaman blog & reuni
+├── public/                   # Aset publik (gambar, logo, favicon)
+├── .contentlayer/            # Output Contentlayer
+├── out/                      # Output hasil export untuk GitHub Pages
+├── tailwind.config.ts        # Konfigurasi Tailwind CSS
+├── contentlayer.config.ts    # Struktur konten dan definisi MDX
 ├── next.config.js            # Konfigurasi Next.js
-├── tsconfig.json             # TypeScript config
+├── tsconfig.json             # Konfigurasi TypeScript
 ├── package.json              # Dependensi & script
-└── README.md                 # Dokumentasi ini
+└── README.md                 # Dokumentasi repositori
 ```
 
 ---
 
 ## 📦 Daftar Perintah Penting
 
-| Perintah         | Deskripsi                           |
-| ---------------- | ----------------------------------- |
-| `npm install`    | Install dependensi                  |
-| `npm run dev`    | Jalankan proyek di `localhost:3000` |
-| `npm run build`  | Build produksi                      |
-| `npm run start`  | Jalankan hasil build                |
-| `npm run deploy` | Deploy ke GitHub Pages              |
+| Perintah         | Deskripsi                                   |
+| ---------------- | ------------------------------------------- |
+| `npm install`    | Instalasi dependensi proyek                 |
+| `npm run dev`    | Menjalankan proyek lokal (`localhost:3000`) |
+| `npm run build`  | Membangun aplikasi untuk produksi           |
+| `npm run start`  | Menjalankan hasil build                     |
+| `npm run deploy` | Mendeploy ke GitHub Pages                   |
 
 ---
 
 ## ❓ FAQ
 
-### 🔹 Kenapa kontennya terpisah menjadi Blog dan Reuni?
+### 🔹 Kenapa struktur kontennya dibagi jadi Blog dan Reuni?
 
-Agar struktur tetap modular dan jelas:
+Agar dokumentasi lebih terstruktur:
 
-- **Blog**: fleksibel untuk berbagai topik.
-- **Reuni**: arsip dokumentasi kegiatan berdasarkan tahun atau lokasi.
+* **Blog**: untuk tulisan umum, cerita, nostalgia, opini, dll.
+* **Reuni**: khusus mendokumentasikan acara resmi atau tidak resmi alumni.
 
-### 🔹 Bisa menambahkan artikel tanpa koding?
+### 🔹 Apakah bisa menulis tanpa ngoding?
 
-Konten `.mdx` cukup ditambahkan dalam folder `content/blog/` atau `content/reuni/`. Anda bisa menulis langsung menggunakan Markdown tanpa menyentuh JavaScript.
+Ya. Cukup buat file `.mdx` dan letakkan di folder `content/blog/` atau `content/reuni/`. Tidak perlu menyentuh JavaScript atau Next.js.
 
 ---
 
 ## 🙌 Kontribusi
 
-Semua alumni TEUB-86 dipersilakan berkontribusi.
+Semua alumni SMANSA-GTG86 diundang untuk berkontribusi. Langkahnya:
 
-Langkah:
-
-1. Fork repositori
+1. Fork repositori ini
 2. Buat branch baru (`feature/nama-fitur`)
-3. Tambahkan konten
-4. Buat Pull Request
+3. Tambahkan konten artikel atau dokumentasi
+4. Buat Pull Request (PR)
 
 ---
 
 ## 📬 Kontak
 
-Dikelola oleh: [@slametsampon](https://github.com/slametsampon)
-Silakan gunakan [Issue](https://github.com/slametsampon/teub-86/issues) untuk pertanyaan atau usulan.
+Dikelola oleh: [@namakontak](https://github.com/[username])
+Silakan gunakan [Issues](https://github.com/[username]/smansa-gtg86/issues) untuk pertanyaan, usulan, atau laporan bug.
 
 ---
 
-Terima kasih telah menggunakan TEUB-86 🚀
-Mari kita dokumentasikan kenangan dan pengetahuan bersama.
+Terima kasih telah mendukung SMANSA-GTG86!
+Mari bersama-sama menjaga kenangan dan menjalin silaturahmi lintas waktu 🚀
+

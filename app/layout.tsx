@@ -31,7 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head>
         <link
           rel="icon"
-          href="/teub-86/favicon.ico"
+          href="/smansa-gtg86/favicon.ico"
           type="image/x-icon"
           sizes="any"
         />

@@ -2,20 +2,20 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'TEUB-86',
+  title: 'smansa-gtg86',
   version: '0.5.0', // 🆕 /reuni
   author: 'Slamet-Sam',
-  headerTitle: 'TEUB-86',
-  description: 'Teknik Elektro Universitas Brawijaya angkatan 1986',
+  headerTitle: 'smansa-gtg86',
+  description: 'SMAN 1 Genteng angkatan 1986',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://slametsampon.github.io/teub-86/',
-  siteRepo: 'https://github.com/slametsampon/teub-86',
+  siteUrl: 'https://slametsampon.github.io/smansa-gtg86/',
+  siteRepo: 'https://github.com/slametsampon/smansa-gtg86',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'address@yoursite.com',
-  github: 'https://github.com/slametsampon/teub-86',
+  github: 'https://github.com/slametsampon/smansa-gtg86',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',

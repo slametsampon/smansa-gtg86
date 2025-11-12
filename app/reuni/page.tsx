@@ -32,7 +32,7 @@ export default function ReuniPage() {
       posts={posts}
       pagination={pagination}
       title="Dokumentasi Reuni"
-      description="Arsip kegiatan reuni alumni Teknik Universitas Brawijaya Angkatan 1986 (TEUB-86)"
+      description="Arsip kegiatan reuni alumni SMAN 1 Genteng Angkatan 1986 (smansa-gtg86)"
     />
   );
 }

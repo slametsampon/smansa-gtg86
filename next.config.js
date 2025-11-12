@@ -21,11 +21,11 @@ const nextConfig = {
   },
 
   // ✅ Penting untuk GitHub Pages: menyesuaikan basePath
-  basePath: isProd ? '/teub-86' : '',
+  basePath: isProd ? '/smansa-gtg86' : '',
 
   // ✅ Expose basePath agar bisa digunakan di komponen (client)
   env: {
-    BASE_PATH: isProd ? '/teub-86' : '',
+    BASE_PATH: isProd ? '/smansa-gtg86' : '',
   },
 
   webpack(config) {

@@ -25,7 +25,7 @@ export default function Footer() {
           <span>© {new Date().getFullYear()}</span>
           <span>•</span>
           <Link
-            href="https://github.com/slametsampon/teub-86"
+            href="https://github.com/slametsampon/smansa-gtg86"
             className="text-blue-600 underline transition-colors duration-200 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
             aria-label="Source code on GitHub"
           >

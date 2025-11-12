@@ -3,8 +3,9 @@
 import React from 'react';
 
 interface LabelBoxProps {
-  text: string;
-  bgColor?: string; // 'gradient' atau HEX color
+  text1: string;
+  text2: string;
+  bgColor?: string; // 'gradient' = merah-maron elektrik
   textColor?: string;
   width?: number;
   height?: number;
@@ -13,24 +14,24 @@ interface LabelBoxProps {
 }
 
 const LabelBox: React.FC<LabelBoxProps> = ({
-  text,
+  text1,
+  text2,
   bgColor = '#001f3f',
   textColor = '#ffffff',
-  width = 75,
-  height = 35,
+  width = 100,
+  height = 60,
   glow = false,
   rounded = true,
 }) => {
   const isGradient = bgColor === 'gradient';
 
-  // Konstruksi class Tailwind secara dinamis
   const className = [
-    'flex items-center justify-center text-sm font-semibold',
+    'flex flex-col items-center justify-center text-center text-sm font-semibold',
     isGradient
-      ? 'bg-gradient-to-r from-[#001f3f] via-[#00aaff] to-[#001f3f]'
+      ? 'bg-gradient-to-b from-[#8B0000] via-[#FF0033] to-[#8B0000]'
       : '',
     rounded ? 'rounded-md' : '',
-    glow ? 'shadow-[0_0_10px_rgba(0,31,63,0.6)]' : '',
+    glow ? 'shadow-[0_0_12px_rgba(255,0,51,0.6)]' : '',
   ]
     .filter(Boolean)
     .join(' ');
@@ -44,7 +45,8 @@ const LabelBox: React.FC<LabelBoxProps> = ({
 
   return (
     <div className={className} style={style}>
-      {text}
+      <div>{text1}</div>
+      <div>{text2}</div>
     </div>
   );
 };
